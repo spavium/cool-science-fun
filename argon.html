@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title> testing </title>
-<script type="text/javascript" src="mobile.js"> </script>
-<script type="text/javascript" src="bt.js"> 
-</script>
-
+<title> cooooooool </title>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<script type="text/javascript" src="mobile.js"> </script> 
+<script type="text/javascript" src=bt.js> </script>
 </head>
 <style>
+@font-face {
+    font-family: px437;
+    src: url(Px437_IBM_BIOS-2x.ttf);
+}
 @font-face {
     font-family: mx437;
     src: url(Mx437_IBM_EGA_9x8-2x.ttf);
@@ -20,10 +23,9 @@
 font-family: Mindset;
 src: url(Px437_Mindset-2x.ttf);
 }
-@font-face {
+@font-face{
 font-family: jetbrains;
 src: url(JetBrainsMono-ExtraLight.ttf)
-
 }
 .side {
 width: 170px;
@@ -66,10 +68,11 @@ margin-left: 175px;
 .mainbottom {
     position: fixed;
     bottom: 0;
-    left: 25%;
+    left: 45%;
 }
 .main h1 {
-font-family: 'mindset';
+text-align: center;
+font-family: 'px437';
 }
 .main p {
 font-family: 'jetbrains';
@@ -80,41 +83,40 @@ font-family: 'mindset'
 .main h3 {
     font-family: 'mindset'
 }
+.main a {
+color: black;
+text-decoration: none;
 
-
-
+}
+::selection {
+background-color: rgb(153, 255, 153);
+color: rgb(0, 0, 0);
+}
+::-moz-selection {
+background-color: rgb(153, 255, 153);
+color: rgb(0, 0, 0);
+}
 </style>
-<body>
+<body id="click">
 <script> 
 window.onload = function() {
-    thefunc();
+thefunc();
 }
-window.onload = function() {
-    epic();
-}
+epicsauce()
 </script>
 <div class="side">
-<p> general stuff</p>
-<a href="index.html"> home page<br> </a>
-<a href="the-making.html"> the making<br></a>
-<a href="test-page.html"> testing
-
-<p> 2A1 </p>
-<a href="group-1.html">group 1 metals</a>
-<a href="group-7.html">group 7 metals</a>
-</div>
+<p> the "powerpoint"</p>
+<a href="presentation.html">introduction</a>
+<p> physical properties </p>
+<a href="">sodium azide<br></a>
+<a href="argon.html">argon<br></a>
+<a href="">silcon<br></a>
+<a href="">carbon dioxide<br> </a>
 <div class="sidebttom">
+<p style="font-size: 10px; font-family: 'acplus';"> <a href="index.html">main page</a></p>
 <p style="font-size: 10px; font-family: 'acplus';"> click the smaller text <br> to go to other pages <br> (not this text tho) <p>
+</div>    
 </div>
+
 <div class="main">
-<button id="theb" onclick=epic> click me! </button>
-<p id="hamburger" style="font-size: 10px;">  i will change size hopefully </p>
-<h1 style="text-align:center;"> WELCOME </h1>
-<p style="text-align: center;"id="tester"> you might be on pc im not so sure </p>
-<div class="mainbottom">
-<p style="text-align: center; bottom: 0"> this page will be empty for the msot part unless doing testing for other parts of the website</p>
-<p style="text-align:center; bottom: 0; font-size: 8px; color: gray;"> or bugg fixing </p>
-</div>
-</div>
-</body>
-</html>
+<h1> argon </h1>

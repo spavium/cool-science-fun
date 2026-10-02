@@ -5,4 +5,5 @@ document.getElementById("tester").innerHTML="you are mobile (meaning you shouldn
 }
 if (screen.width >= 700) {
 document.getElementById("tester").innerHTML="you are on pc (yay!!!!!!)";}
+ console.log = "hamburger"
 }

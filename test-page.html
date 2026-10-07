@@ -81,7 +81,15 @@ font-family: 'mindset'
     font-family: 'mindset'
 }
 
+.container {
+  position: relative;
+}
 
+.fixed-text {
+  position: absolute;
+  top: 20px; /* Adjust the top distance as needed */
+  left: 20px; /* Adjust the left distance as needed */
+}
 
 </style>
 <body>
@@ -107,9 +115,10 @@ window.onload = function() {
 <p style="font-size: 10px; font-family: 'acplus';"> click the smaller text <br> to go to other pages <br> (not this text tho) <p>
 </div>
 <div class="main">
-<button id="theb" onclick=epic> click me! </button>
-<p id="hamburger" style="font-size: 10px;">  i will change size hopefully </p>
 <h1 style="text-align:center;"> WELCOME </h1>
+<div class="container">
+  <p class="fixed-text">Your fixed text here</p>
+</div>
 <p style="text-align: center;"id="tester"> you might be on pc im not so sure </p>
 <div class="mainbottom">
 <p style="text-align: center; bottom: 0"> this page will be empty for the msot part unless doing testing for other parts of the website</p>
